@@ -67,10 +67,9 @@ When implementing a spec or any other feature:
 
 ## Documentation
 
-- **PRDs** live in `docs/prd/`. The Parley PRD is split there per section as
-  `NN_snake_case_topic.md` (`00_overview.md` to `17_sequencing_and_decisions.md`)
-  plus `appendix_*.md`. Where a new, separate PRD goes is not settled yet:
-  ask before creating one.
+- **PRDs** live in `docs/prd/NN-imperative-verb-phrase.md`, one file per
+  PRD. To choose NN, list existing files, find the max numeric prefix, and
+  use the next number zero-padded to two digits (three digits once past 99).
 - **ADRs** live in `docs/adr/NN-imperative-verb-phrase.md`. To choose NN,
   list existing files, find the max numeric prefix, and use the next number
   zero-padded to two digits for consistency (three digits once past 99).
